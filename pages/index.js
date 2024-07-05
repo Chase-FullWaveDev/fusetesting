@@ -1,15 +1,17 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
-import memberstackDOM from '@memberstack/dom';
-const memberstack = memberstackDOM.init({
-  publicKey: "pk_sb_df3cce50a7e66ccd679b",
-});
 
-/*export default function Home() {
+export default function Home() {
   return (
     <div className="container">
-      <Head>
+    <Head>
+      import memberstackDOM from '@memberstack/dom';
+        const memberstack = memberstackDOM.init({
+          publicKey: "pk_sb_df3cce50a7e66ccd679b",
+        });
+  </Head>
+     /* <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -21,7 +23,7 @@ const memberstack = memberstackDOM.init({
         </p>
       </main>
 
-      <Footer />
+      <Footer /> */
     </div>
   )
-}*/
+}
