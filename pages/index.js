@@ -1,8 +1,12 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import memberstackDOM from '@memberstack/dom';
+const memberstack = memberstackDOM.init({
+  publicKey: "pk_sb_df3cce50a7e66ccd679b",
+});
 
-export default function Home() {
+/*export default function Home() {
   return (
     <div className="container">
       <Head>
@@ -20,4 +24,4 @@ export default function Home() {
       <Footer />
     </div>
   )
-}
+}*/
