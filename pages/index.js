@@ -1,16 +1,16 @@
-import Head from 'next/head'
+/*import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
-
+*/
 export default function Home() {
   return (
     <div className="container">
-    <Head>
+    <Header>
       import memberstackDOM from '@memberstack/dom';
         const memberstack = memberstackDOM.init({
           publicKey: "pk_sb_df3cce50a7e66ccd679b",
         });
-  </Head>
+  </Header>
      /* <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
